@@ -46,7 +46,6 @@ Before setting up the Scraping Microservice, ensure you have:
 Clone this repository into your workspace:
 ```bash
 git clone https://github.com/joaoguiIherme/scraping_service.git
-cd Scraping-Microservice
 ```
 
 ### 2. File Structure Adjustment
