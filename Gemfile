@@ -17,10 +17,13 @@ gem "puma", "~> 5.0"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
-
+gem 'rest-client'
+gem 'http-cookie'
+gem 'mime-types', '~> 3.3'
+gem 'http-accept', '~> 1.7'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
-
+gem 'nokogiri'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
@@ -39,6 +42,7 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'rspec-rails', '~> 5.0.0'
 end
 
 group :development do

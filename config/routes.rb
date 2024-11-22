@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  post '/scrapes', to: 'scrapes#create'
+  post '/scrapes/completed', to: 'scrapes#completed'
+  post '/scrapes/notify', to: 'scrapes#notify'
 end
