@@ -33,9 +33,9 @@ Before setting up the Scraping Microservice, ensure you have:
 - [Docker Compose](https://docs.docker.com/compose/) installed (Version 2.x or higher).
 - PostgreSQL (via Docker).
 - Access to other repositories in the ecosystem:
-  - [Main App](https://github.com/joaoguiIherme/Main-Tasks-App)
-  - [Auth Service](https://github.com/joaoguiIherme/Auth-Microservice)
-  - [Notifications Service](https://github.com/joaoguiIherme/Notifications-Microservice)
+  - [Main App](https://github.com/joaoguiIherme/main_app)
+  - [Auth Service](https://github.com/joaoguiIherme/auth_service)
+  - [Notifications Service](https://github.com/joaoguiIherme/notifications_service)
 
 ---
 
@@ -45,7 +45,7 @@ Before setting up the Scraping Microservice, ensure you have:
 
 Clone this repository into your workspace:
 ```bash
-git clone https://github.com/joaoguiIherme/Scraping-Microservice.git
+git clone https://github.com/joaoguiIherme/scraping_service.git
 cd Scraping-Microservice
 ```
 
